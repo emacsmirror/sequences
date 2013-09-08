@@ -22,6 +22,8 @@
 
 ;;; Code:
 
+(require 'cl-lib)
+
 (defun sequences-tree-seq (branch? children root)
   (cl-labels ((walk (node)
                     (cons node
