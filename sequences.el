@@ -32,10 +32,10 @@
     (walk root)))
 
 (defun sequences-file-seq (root)
-  (tree-seq 'file-directory-p
-            (lambda (directory)
-              (directory-files directory t))
-            (expand-file-name root)))
+  (sequences-tree-seq 'file-directory-p
+                      (lambda (directory)
+                        (directory-files directory t))
+                      (expand-file-name root)))
 
 (provide 'sequences)
 
