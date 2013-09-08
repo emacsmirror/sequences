@@ -2,9 +2,9 @@
 
 CC BY Tim Visher
 
-Author: Tim Visher <tim.visher@gmail.com>
-Keywords: convenience
-Package-Requires: ((emacs "24"))
+Author: Tim Visher <tim.visher@gmail.com>  
+Keywords: convenience  
+Package-Requires: ((emacs "24"))  
 Version: 0.1.0
 
 This file is not part of GNU Emacs.
